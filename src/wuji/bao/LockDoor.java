@@ -17,13 +17,13 @@ public class LockDoor extends Door  implements Lock {
 	}
 
 	@Override
-	public void locked() {
+	public void locked(int a ,int b) {
 		// TODO Auto-generated method stub
 	    System.out.println("¼ÓËø");
 	}
 
 	@Override
-	public void unlocked() {
+	public void unlocked(int a ,int b) {
 		// TODO Auto-generated method stub
 	   System.out.println("½âËø");
 	}
